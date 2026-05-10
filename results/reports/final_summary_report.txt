@@ -1,0 +1,133 @@
+
+================================================================================
+AIRCRAFT TARGET CLASSIFICATION PROJECT - FINAL REPORT
+================================================================================
+PROJECT DETAILS:
+--------------
+Generated: 2026-05-03 15:32:31
+Random Seed: 42
+DATASET INFORMATION:
+------------------
+Total Samples: 968
+Original Features: 32
+Selected Features: 15
+Number of Classes: 10
+Classes: [np.int64(1), np.int64(2), np.int64(3), np.int64(4), np.int64(5), np.int64(6), np.int64(7), np.int64(8), np.int64(9), np.int64(10)]
+Train-Test Split: 70%-30%
+Training Samples: 677
+Test Samples: 291
+FEATURE SELECTION:
+----------------
+Method: Consensus Ranking (ANOVA + Mutual Info + Random Forest + XGBoost)
+Top 15 Selected Features:
+ 1. Height_rate_std
+ 2. Resultant_acceleration_range
+ 3. AGC_min
+ 4. AGC_max
+ 5. Resultant_velocity_range
+ 6. AGC_mean
+ 7. Resultant_acceleration_rate_std
+ 8. Resultant_velocity_std
+ 9. Resultant_velocity_rate_mean
+10. Resultant_velocity_rate_std
+11. Height_mean
+12. Resultant_acceleration_std
+13. Height_std
+14. Resultant_acceleration_max
+15. Resultant_velocity_max
+
+MODEL TRAINING RESULTS:
+---------------------
+Number of Models Trained: 7
+Cross-Validation Folds: 5
+Model Performance Summary (sorted by Test Accuracy):
+
+Random Forest:
+   Train Accuracy: 1.0000
+   Test Accuracy:  0.9966
+   Precision:      0.9967
+   Recall:         0.9966
+   F1-Score:       0.9965
+   Overfitting:    0.0034
+   Training Time:  0.44s
+
+Decision Tree:
+   Train Accuracy: 1.0000
+   Test Accuracy:  0.9897
+   Precision:      0.9899
+   Recall:         0.9897
+   F1-Score:       0.9897
+   Overfitting:    0.0103
+   Training Time:  0.02s
+
+Logistic Regression:
+   Train Accuracy: 0.9985
+   Test Accuracy:  0.9897
+   Precision:      0.9897
+   Recall:         0.9897
+   F1-Score:       0.9896
+   Overfitting:    0.0088
+   Training Time:  6.19s
+
+Gradient Boosting:
+   Train Accuracy: 1.0000
+   Test Accuracy:  0.9897
+   Precision:      0.9902
+   Recall:         0.9897
+   F1-Score:       0.9896
+   Overfitting:    0.0103
+   Training Time:  5.63s
+
+XGBoost:
+   Train Accuracy: 1.0000
+   Test Accuracy:  0.9897
+   Precision:      0.9905
+   Recall:         0.9897
+   F1-Score:       0.9895
+   Overfitting:    0.0103
+   Training Time:  0.23s
+
+Support Vector Machine:
+   Train Accuracy: 0.9911
+   Test Accuracy:  0.9863
+   Precision:      0.9864
+   Recall:         0.9863
+   F1-Score:       0.9862
+   Overfitting:    0.0049
+   Training Time:  0.14s
+
+K-Nearest Neighbors:
+   Train Accuracy: 0.9897
+   Test Accuracy:  0.9794
+   Precision:      0.9794
+   Recall:         0.9794
+   F1-Score:       0.9794
+   Overfitting:    0.0103
+   Training Time:  0.14s
+
+BEST MODEL:
+----------
+Model: Random Forest
+Test Accuracy: 0.9966
+Cross-Validation Mean: 0.9970 (±0.0036)
+Overfitting Gap: 0.0034
+Status: Acceptable - No significant overfitting
+FILES GENERATED:
+--------------
+- Best Model: best_model_random_forest.pkl
+- Scaler: scaler.pkl
+- Model Metadata: model_metadata.json
+- Feature Rankings: feature_rankings.csv
+- Model Comparison: model_comparison.csv
+- Cross-Validation Results: cross_validation_results.csv
+VISUALIZATIONS GENERATED:
+-----------------------
+EDA Figures: 5 files
+Feature Selection Figures: 13 files
+Model Performance Figures: 3 files
+Confusion Matrices: 3 files
+ROC Curves: 1 files
+Learning Curves: 1 files
+================================================================================
+END OF REPORT
+================================================================================
