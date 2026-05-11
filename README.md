@@ -111,6 +111,7 @@ This project solves these challenges by utilizing aircraft motion characteristic
 │   ├── roc_curve.png
 │
 ├── realtime_app.py
+├── udp_dat_processor.py
 ├── udp_receiver.py
 ├── utils.py
 ├── requirements.txt
@@ -135,31 +136,23 @@ The dataset consists of aircraft kinematic trajectory parameters collected from 
 ---
 
 # ⚙️ Data Processing Pipeline
+## System Architecture
+![Data Processing Pipeline](images/Data-Processing-Pipeline.png)
 
 ## Stage 1: UDP Data Reception
 - Receives binary .dat packets
 - Real-time socket communication
 - Packet decoding using struct unpacking
 
-📌 Add Diagram Here:
-UDP Data Acquisition Workflow
-
 ## Stage 2: Data Structuring
 - Converts raw binary packets into DataFrame format
 - Handles validation and corrupted packets
-
-📌 Add Diagram Here:
-Data Flow Diagram (DFD)
 
 ## Stage 3: Sliding Window Segmentation
 - Window Size = 50
 - Step Size = 25
 
 This captures temporal motion patterns from trajectory sequences.
-
-📌 Add Diagram Here:
-Sliding Window Processing Diagram
-
 ## Stage 4: Feature Engineering
 ### Statistical Features
 - Mean
@@ -176,8 +169,7 @@ Total Features Generated:
 
 - 32-dimensional feature vector
 
-📌 Add Diagram Here:
-Feature Engineering Pipeline
+
 ---
 
 # 🧮 Feature Selection Techniques
