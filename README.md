@@ -180,7 +180,7 @@ Multiple feature selection methods were used:
 - Consensus Ranking
 
 Top 15 discriminative features selected.
-![Feature selection methods](images\Feature-selection-method-graph.jpeg)
+![Feature selection methods](C:\Real-Time-TGT\images\Feature-selection-method-graph.jpeg)
 ---
 
 # 🤖 Machine Learning Models
