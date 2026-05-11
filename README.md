@@ -180,7 +180,7 @@ Multiple feature selection methods were used:
 - Consensus Ranking
 
 Top 15 discriminative features selected.
-![Feature selection methods](C:\Real-Time-TGT\images\Feature-selection-method-graph.jpeg)
+![Feature selection methods](images/Feature-selection-method-graph.jpeg)
 ---
 
 # 🤖 Machine Learning Models
@@ -254,7 +254,7 @@ Contains:
 1. Data Reception Screen
 - Displays incoming real-time radar data.
 Data Reception Screen
-![Data reception screen](images\Data-Reception-UI.png)
+![Data reception screen](images/Data-Reception-UI.png)
 
 2. Prediction Dashboard
 Shows:
@@ -263,24 +263,24 @@ Shows:
 - Probability distribution
 
 Prediction Screen
-![Prediction UI](images\Prediction-UI.png)
-![Prediction UI](images\Realistic-View.png)
-![Prediction UI](images\Prediction-Table.png)
-![Prediction UI](images\Prediction-class-graph.png)
+![Prediction UI](images/Prediction-UI.png)
+![Prediction UI](images/Realistic-View.png)
+![Prediction UI](images/Prediction-Table.png)
+![Prediction UI](images/Prediction-class-graph.png)
 
 3. Analytics Dashboard
 Includes:
 - Height vs Time
-![Height vs Velocity](images\Analytics-UI.png)
+![Height vs Velocity](images/Analytics-UI.png)
 
 - Velocity vs Time
-![Velocity vs Time](images\Velocity-Over-Time.png)
+![Velocity vs Time](images/Velocity-Over-Time.png)
 
 - Acceleration vs Time
-![Acceleration vs Time](images\Acc-Over-Time.png)
+![Acceleration vs Time](images/Acc-Over-Time.png)
 
 - Height vs Velocity Scatter plots
-![Scatter plots]("images\Height-VS-velocity.png")
+![Scatter plots]("images/Height-VS-velocity.png")
 
 
 4. Performance Evaluation Screen
@@ -292,8 +292,8 @@ Displays:
 - ROC curves
 
 Performance Dashboard
-![Performance metrics]("images\Report-UI.png")
-![Performance metrics]("images\performance-metrics-dia.jpg")
+![Performance metrics]("images/Report-UI.png")
+![Performance metrics]("images/performance-metrics-dia.jpg")
 ---
 
 # 📐 System Architecture
@@ -305,7 +305,7 @@ The proposed framework consists of:
 - Visualization Dashboard
 
 External & Internal System Workflow Diagram
-![System Flow]("images\external-internal-system-flow.jpg")
+![System Flow]("images/external-internal-system-flow.jpg")
 ---
 
 
