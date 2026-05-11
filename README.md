@@ -1,9 +1,7 @@
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3F1Y3h6cXlnbHBzMmt2eWFxZDB3eXN6aGJjNmtoZTI3MzQ3MzBkbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2nKi2xKYjhK0w/giphy.gif" width="1000" height="400"/>
 </p>
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG0wbmxvMmpoYzMxb3c2bmZ1bDFwcWI4OW9zYmlidmt3OHUybDhvbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VuehuL4fMHLgs/giphy.gif" width="1000" height="200"/>
-</p>
+
 <h1 align="center">
 REAL-TIME AIR-BORNE TARGET CLASSIFICATION USING KINEMATICS DATA FOR COASTAL SURVEILLANCE RADAR
 </h1>
@@ -12,6 +10,9 @@ REAL-TIME AIR-BORNE TARGET CLASSIFICATION USING KINEMATICS DATA FOR COASTAL SURV
 An AI-powered real-time airborne target classification system using machine learning and kinematic trajectory analysis for coastal surveillance radar environments.
 </p>
 
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG0wbmxvMmpoYzMxb3c2bmZ1bDFwcWI4OW9zYmlidmt3OHUybDhvbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VuehuL4fMHLgs/giphy.gif" width="1000" height="200"/>
+</p>
 ---
 ## 🚀 Live Demo
 
