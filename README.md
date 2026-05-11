@@ -252,7 +252,7 @@ Contains:
 
 # 📱 UI Modules
 1. Data Reception Screen
-- Displays incoming real-time radar data.
+Displays incoming real-time radar data.
 Data Reception Screen
 ![Data reception screen](images/Data-Reception-UI.png)
 
