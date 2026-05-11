@@ -136,7 +136,6 @@ The dataset consists of aircraft kinematic trajectory parameters collected from 
 ---
 
 # ⚙️ Data Processing Pipeline
-## System Architecture
 ![Data Processing Pipeline](images/Data-Processing-Pipeline.png)
 
 ## Stage 1: UDP Data Reception
@@ -168,8 +167,6 @@ This captures temporal motion patterns from trajectory sequences.
 Total Features Generated:
 
 - 32-dimensional feature vector
-
-
 ---
 
 # 🧮 Feature Selection Techniques
@@ -183,17 +180,8 @@ Multiple feature selection methods were used:
 - Consensus Ranking
 
 Top 15 discriminative features selected.
-
-📌 Add Graph Here:
-
-- ANOVA Feature Importance
-- Mutual Information Plot
-- Random Forest Feature Importance
-- XGBoost Feature Importance
-- Consensus Ranking Graph
+![Feature selection methods](images\Feature-selection-method-graph.jpeg)
 ---
-
-
 
 # 🤖 Machine Learning Models
 
@@ -264,33 +252,36 @@ Contains:
 
 # 📱 UI Modules
 1. Data Reception Screen
-
-Displays incoming real-time radar data.
-
-📌 Add Screenshot:
+- Displays incoming real-time radar data.
 Data Reception Screen
+![Data reception screen](images\Data-Reception-UI.png)
 
 2. Prediction Dashboard
-
 Shows:
-
 - Predicted aircraft class
 - Confidence percentage
 - Probability distribution
 
-📌 Add Screenshot:
 Prediction Screen
+![Prediction UI](images\Prediction-UI.png)
+![Prediction UI](images\Realistic-View.png)
+![Prediction UI](images\Prediction-Table.png)
+![Prediction UI](images\Prediction-class-graph.png)
 
 3. Analytics Dashboard
-
 Includes:
 - Height vs Time
-- Velocity vs Time
-- Acceleration vs Time
-- Scatter plots
+![Height vs Velocity](images\Analytics-UI.png)
 
-📌 Add Screenshot:
-Analytics Dashboard
+- Velocity vs Time
+![Velocity vs Time](images\Velocity-Over-Time.png)
+
+- Acceleration vs Time
+![Acceleration vs Time](images\Acc-Over-Time.png)
+
+- Height vs Velocity Scatter plots
+![Scatter plots]("images\Height-VS-velocity.png")
+
 
 4. Performance Evaluation Screen
 
@@ -300,26 +291,21 @@ Displays:
 - Class distribution
 - ROC curves
 
-📌 Add Screenshot:
 Performance Dashboard
+![Performance metrics]("images\Report-UI.png")
+![Performance metrics]("images\performance-metrics-dia.jpg")
 ---
 
 # 📐 System Architecture
-
 The proposed framework consists of:
-
 - UDP Receiver Module
 - Data Structuring Module
 - Feature Engineering Module
 - Classification Engine
 - Visualization Dashboard
 
-📌 Add Diagram Here:
-Overall System Architecture Diagram
----
-
-# 🔄 Methodology Workflow
-Add diagram here
+External & Internal System Workflow Diagram
+![System Flow]("images\external-internal-system-flow.jpg")
 ---
 
 
@@ -374,9 +360,16 @@ streamlit run realtime_app.py
 
 # 👩‍💻 Authors
 
-## Ms. Susmita Das
-B.Tech CSE  
-GIFT Autonomous, Bhubaneswar
+## Susmita Das
+Final Year B.Tech CSE Student  
+GIFT Autonomous, Bhubaneswar  
+
+- Machine Learning & AI Enthusiast
+- Real-Time Aircraft Classification Research
+- Python | ML | Streamlit | Radar Data Processing
+
+GitHub: https://github.com/Susmita-Dev-04  
+LinkedIn: https://linkedin.com/in/susmita-das-2b61a6312
 ---
 
 # ⭐ Project Highlights
