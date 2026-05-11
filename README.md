@@ -1,7 +1,14 @@
-# REAL-TIME AIR-BORNE TARGET CLASSIFICATION USING KINEMATICS DATA FOR COASTAL SURVEILLANCE RADAR
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG0wbmxvMmpoYzMxb3c2bmZ1bDFwcWI4OW9zYmlidmt3OHUybDhvbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/gDku8Nt7wexknvi0WY/giphy.gif" width="1000"/>
+</p>
 
+<h1 align="center">
+REAL-TIME AIR-BORNE TARGET CLASSIFICATION USING KINEMATICS DATA FOR COASTAL SURVEILLANCE RADAR
+</h1>
+
+<p align="center">
 An AI-powered real-time airborne target classification system using machine learning and kinematic trajectory analysis for coastal surveillance radar environments.
-
+</p>
 ---
 ## 🚀 Live Demo
 
