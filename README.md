@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3F1Y3h6cXlnbHBzMmt2eWFxZDB3eXN6aGJjNmtoZTI3MzQ3MzBkbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2nKi2xKYjhK0w/giphy.gif" width="1000"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3F1Y3h6cXlnbHBzMmt2eWFxZDB3eXN6aGJjNmtoZTI3MzQ3MzBkbiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/2nKi2xKYjhK0w/giphy.gif" width="1000" height="400"/>
 </p>
 
 <h1 align="center">
@@ -15,7 +15,7 @@ An AI-powered real-time airborne target classification system using machine lear
 
 🔗 Deployed Application: https://aerosense-target-identification-system.onrender.com
 
-📌 Note:
+Note:
 This deployment demonstrates the real-time aircraft classification workflow using uploaded CSV trajectory data for testing purposes.
 ---
 
