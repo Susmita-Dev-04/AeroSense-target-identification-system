@@ -3,6 +3,13 @@
 An AI-powered real-time airborne target classification system using machine learning and kinematic trajectory analysis for coastal surveillance radar environments.
 
 ---
+## 🚀 Live Demo
+
+🔗 Deployed Application: https://aerosense-target-identification-system.onrender.com
+📌 Note:
+This deployment demonstrates the real-time aircraft classification workflow using uploaded CSV trajectory data for testing purposes.
+---
+
 
 # 📌 Project Overview
 
@@ -280,7 +287,7 @@ Includes:
 ![Acceleration vs Time](images/Acc-Over-Time.png)
 
 - Height vs Velocity Scatter plots
-![Scatter plots]("images/Height-VS-velocity.png")
+![Scatter plots](images/Height-VS-velocity.png)
 
 
 4. Performance Evaluation Screen
@@ -292,8 +299,8 @@ Displays:
 - ROC curves
 
 Performance Dashboard
-![Performance metrics]("images/Report-UI.png")
-![Performance metrics]("images/performance-metrics-dia.jpg")
+![Performance metrics](images/Report-UI.png)
+![Performance metrics](images/performance-metrics-dia.jpg)
 ---
 
 # 📐 System Architecture
@@ -305,7 +312,7 @@ The proposed framework consists of:
 - Visualization Dashboard
 
 External & Internal System Workflow Diagram
-![System Flow]("images/external-internal-system-flow.jpg")
+![System Flow](images/external-internal-system-flow.jpg)
 ---
 
 
@@ -367,6 +374,7 @@ GIFT Autonomous, Bhubaneswar
 - Machine Learning & AI Enthusiast
 - Real-Time Aircraft Classification Research
 - Python | ML | Streamlit | Radar Data Processing
+
 
 GitHub: https://github.com/Susmita-Dev-04  
 LinkedIn: https://linkedin.com/in/susmita-das-2b61a6312
